@@ -44,8 +44,6 @@ array_multisort($standard_key_array, SORT_DESC, $learningnotes);
           <td><a href="delete.php?id=<?php echo $learningnote['id']; ?>">削除</a></td>
         </tr>
       <?php endforeach; ?>
-
     </table>
   </div>
-
 </body>
