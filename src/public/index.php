@@ -39,7 +39,6 @@ array_multisort($standard_key_array, SORT_DESC, $learningnotes);
         <tr>
           <td><?php echo $learningnote['theme']; ?></td>
           <td><?php echo $learningnote['contents']; ?></td>
-          <!-- 表示変更 -->
           <td><?php echo date('Y年m月d日H時i分s秒', strtotime($learningnote['created_at'])); ?></td>
           <td><a href="edit.php?id=<?php echo $learningnote['id']; ?>">編集</a></td>
           <td><a href="delete.php?id=<?php echo $learningnote['id']; ?>">削除</a></td>
